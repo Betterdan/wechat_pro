@@ -1,4 +1,7 @@
 /**index.wxss**/
+page{
+  height: 100%;
+}
 .userinfo {
   display: flex;
   flex-direction: column;
@@ -17,5 +20,16 @@
 }
 
 .usermotto {
-  margin-top: 200px;
+  margin-top: 150px;
+}
+.lei{
+  background: red;
+}
+
+.container{
+    width: 100%;
+    background-image:url(https://raw.githubusercontent.com/Betterdan/Photos/master/mybg.jpg);
+    background-size: 100% 100%;
+    color: white;
+    height:100%;
 }

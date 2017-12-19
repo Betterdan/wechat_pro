@@ -1,12 +1,34 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/me/me"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "阿丹的私有程序",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "backgroundColor": "#ABABAB",
+    "color": "#fff",
+    "selectedColor": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./icon/home1.png",
+        "selectedIconPath": "./icon/home1.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "关于",
+        "iconPath": "./icon/log1.png",
+        "selectedIconPath": "./icon/log1.png"
+      }
+    ]
   }
 }
